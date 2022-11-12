@@ -11,12 +11,10 @@ void main(List<String> args) {
             style: TextStyle(color: Colors.white),
           ),
           backgroundColor: Colors.black12,
+          centerTitle: true,
         ),
-        body: Center(
-          child: Text(
-            'Hello World',
-            style: TextStyle(color: Colors.red.shade200),
-          ),
+        body: const Center(
+          child: Image(image: AssetImage('lib/images/d1.webp')),
         ),
       ),
     ),
